@@ -3,3 +3,81 @@ hi
 welcome
 namaste
 mysurian
+
+2@DESKTOP-80B0O8B MINGW64 ~
+$ pwd
+/c/Users/2
+
+2@DESKTOP-80B0O8B MINGW64 ~ (master)
+$ cd C:/
+
+2@DESKTOP-80B0O8B MINGW64 /c
+$ git clone https://github.com/Praveenakum/pailwaan.git
+Cloning into 'pailwaan'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+2@DESKTOP-80B0O8B MINGW64 /c
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+2@DESKTOP-80B0O8B MINGW64 /c
+$ cd C:/pailwaan/
+
+2@DESKTOP-80B0O8B MINGW64 /c/pailwaan (main)
+$ git add .
+
+2@DESKTOP-80B0O8B MINGW64 /c/pailwaan (main)
+$ git commit -m "my first changes"
+[main 119f547] my first changes
+ 1 file changed, 1 insertion(+)
+
+2@DESKTOP-80B0O8B MINGW64 /c/pailwaan (main)
+$ git push
+
+
+
+2@DESKTOP-80B0O8B MINGW64 /c/pailwaan (main)
+$ ^C
+
+2@DESKTOP-80B0O8B MINGW64 /c/pailwaan (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 253 bytes | 253.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Praveenakum/pailwaan.git
+   356637f..119f547  main -> main
+
+2@DESKTOP-80B0O8B MINGW64 /c/pailwaan (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 634 bytes | 2.00 KiB/s, done.
+From https://github.com/Praveenakum/pailwaan
+   119f547..60c4f25  main       -> origin/main
+Updating 119f547..60c4f25
+Fast-forward
+ test | 1 +
+ 1 file changed, 1 insertion(+)
+
+2@DESKTOP-80B0O8B MINGW64 /c/pailwaan (main)
+$ git add .
+
+2@DESKTOP-80B0O8B MINGW64 /c/pailwaan (main)
+$ git commit -m "my second"
+[main 3029173] my second
+ 1 file changed, 1 insertion(+)
+
+2@DESKTOP-80B0O8B MINGW64 /c/pailwaan (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 266 bytes | 266.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Praveenakum/pailwaan.git
+   60c4f25..3029173  main -> main
+
